@@ -1,0 +1,65 @@
+body{
+    background-color: #284488;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button{
+    border: solid 2px black;
+    border-radius: 15%;
+    background-color: yellow;
+    margin: 10px 0 0 50px;
+}
+.lesson1{
+    margin: 50px 0 0 0 ;
+    grid-template-columns: 1 1 auto;
+}
+.button2{
+    display: grid;
+    background-color: yellow;
+    border: solid 2px black;
+    border-radius: 5%;
+    margin: 10px 0 0 50px;
+}
+.menu{
+    display: inline-block;
+    margin: 50px;
+}
+.menu__button{
+    background-color: yellow;
+    border: solid 2px black;
+    border-radius: 15%;
+}
+.menu.__active .menu__list{
+    display: block;
+}
+.menu.__active .menu__button span:first-child{
+    display: none;
+}
+.menu.__active .menu__button span:last-child{
+    display: block;
+}
+.menu__button span:first-child{
+    display: block;
+}
+.menu__button span:last-child{
+    display: none;
+}
+.menu__link{
+    padding: 15px;
+    color: white;
+}
+.button3{
+    background-color: yellow;
+    border: solid 2px black;
+    border-radius: 5%;
+    margin: 10px 0 0 50px;
+}
+.mouse__move{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: #258833;
+}
+.lorem{
+    margin: 50px 0 0 0;
+}
